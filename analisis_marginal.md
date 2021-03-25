@@ -103,7 +103,7 @@ Aumento de la utilidad por cada peso adicional vendido de un producto, siempre
 que esa venta adicional se realice a precio constante, es decir que se realice
 por variación de volumen.
 
-Si la tasa <img src="https://render.githubusercontent.com/render/math?math=m_i = 38 %">, por cada 100$ adicionales vendidos del producto, se ganan
+Si la tasa <img src="https://render.githubusercontent.com/render/math?math=m_i = 38"> %, por cada 100$ adicionales vendidos del producto, se ganan
 38$, siempre que esas ventas adicionales estén dadas por un incremento del
 volumen físico, no por incremento de precio.
 
@@ -127,8 +127,7 @@ de volumen.
 
 utilidad incremental
 
-<img src="https://render.githubusercontent.com/render/math?math=\Delta U = V_1 \Delta p_1 + V_2 \Delta p_2 + E_1 \Delta Q_1 + E_2 \Delta Q_2 -
-W_1 \Delta w_1 - W_2 \Delta w_w - F \Delta F">
+<img src="https://render.githubusercontent.com/render/math?math=\Delta U = V_1 \Delta p_1 + V_2 \Delta p_2 + E_1 \Delta Q_1 + E_2 \Delta Q_2 - W_1 \Delta w_1 - W_2 \Delta w_w - F \Delta F">
 
 ## Graficos
 
