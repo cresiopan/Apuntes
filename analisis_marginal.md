@@ -4,6 +4,7 @@
 Ganancia Unitaria = Precio de Venta - Costo Unitario
 
 <img src="https://render.githubusercontent.com/render/math?math=p_i">: precio de venta
+
 <img src="https://render.githubusercontent.com/render/math?math=w_i">: costo variable unitario
 - materia prima
 - envases
@@ -16,7 +17,9 @@ Ganancia Unitaria = Precio de Venta - Costo Unitario
   - comisiones de vendedores
   - impuestos
   - fletes
+
 <img src="https://render.githubusercontent.com/render/math?math=Q_i">: volumen fisico de ventas
+
 <img src="https://render.githubusercontent.com/render/math?math=F_i">: gastos fijos propios
 no varian al variar el nivel de actividad
 - alquiler
@@ -36,8 +39,7 @@ gastos fijos
     - publicidad
     - alquiler
 
-estos valores se definen para un periodo dado
-son independientes entre si
+estos valores se definen para un periodo dado. son independientes entre si
 
 
 
@@ -60,25 +62,26 @@ son independientes entre si
 
 ### Utilidades operativas
 
-U = V - C = \sum_{i=1}^{n} p_i Q_i - F - \sum_{i=1}^{n} w'_i Q_i - \sum_{i=1}^{n} s_i V_i
+<img src="https://render.githubusercontent.com/render/math?math=U = V - C = \sum_{i=1}^{n} p_i Q_i - F - \sum_{i=1}^{n} w'_i Q_i - \sum_{i=1}^{n} s_i V_i">
 
 ### Utilidades antes de impuestos
 
-U_A = U + R
+<img src="https://render.githubusercontent.com/render/math?math=U_A = U + R">
 
 ### Utilidad Neta
 
-N = U_A - J U_A = (1-J)U_A
+<img src="https://render.githubusercontent.com/render/math?math=N = U_A - J U_A = (1-J)U_A">
 
 ### Ecuacion fundamental
-w_i = w'_i + s_i p_i
-U = \sum^{n} (p_i-w_i)Q_i-F
+<img src="https://render.githubusercontent.com/render/math?math=w_i = w'_i + s_i p_i">
+
+<img src="https://render.githubusercontent.com/render/math?math=U = \sum^{n} (p_i-w_i)Q_i-F">
 
 ### Utilidad marginal unitaria de un producto
 
-e_i = p_i - w_i
+<img src="https://render.githubusercontent.com/render/math?math=e_i = p_i - w_i">
 
-U = \sum^n e_i Q_i - F
+<img src="https://render.githubusercontent.com/render/math?math=U = \sum^n e_i Q_i - F">
 
 
 incremento de las utilidades de la empresa cuando se vende una unidad adicional
@@ -86,30 +89,30 @@ del producto
 
 ### Utilidad marginal de un producto
 
-E_i = e_i Q_i = p_i Q_i - w_i Q_i = V_i W_i
+<img src="https://render.githubusercontent.com/render/math?math=E_i = e_i Q_i = p_i Q_i - w_i Q_i = V_i W_i">
 
-V_i: ventas del producto
-W_i: costo variable del producto
+<img src="https://render.githubusercontent.com/render/math?math=V_i">: ventas del producto
+<img src="https://render.githubusercontent.com/render/math?math=W_i">: costo variable del producto
 
 
 ### Tasa de utilidad marginal del producto
 
-m_i = \frac{e_i}{p_i}
+<img src="https://render.githubusercontent.com/render/math?math=m_i = \frac{e_i}{p_i}">
 
 Aumento de la utilidad por cada peso adicional vendido de un producto, siempre
 que esa venta adicional se realice a precio constante, es decir que se realice
 por variación de volumen.
 
-Si la tasa m_i = 38 %, por cada 100$ adicionales vendidos del producto, se ganan
+Si la tasa <img src="https://render.githubusercontent.com/render/math?math=m_i = 38 %">, por cada 100$ adicionales vendidos del producto, se ganan
 38$, siempre que esas ventas adicionales estén dadas por un incremento del
 volumen físico, no por incremento de precio.
 
 ### Tasa de utilidad marginal de la empresa
 
-m = \frac{E}{V}
+<img src="https://render.githubusercontent.com/render/math?math=m = \frac{E}{V}">
 
 E: utilidad marginal de la empresa
-U = E - F
+<img src="https://render.githubusercontent.com/render/math?math=U = E - F">
 
 Aumento de la utilidad por cada peso adicional vendido, siempre que esa venta
 adicional se realice a precio constante, es decir que se realice por variación
@@ -118,14 +121,14 @@ de volumen.
 
 ### Tasa de contribucion marginal de la emrpesa
 
-m_{emp} = \frac{m_1 V_1 + m_2 V_2 + m_3 V_3}{V_1 V_2 V_3}
+<img src="https://render.githubusercontent.com/render/math?math=m_{emp} = \frac{m_1 V_1 + m_2 V_2 + m_3 V_3}{V_1 V_2 V_3}">
 
 ### Ecuacion de la empresa
 
 utilidad incremental
 
-\Delta U = V_1 \Delta p_1 + V_2 \Delta p_2 + E_1 \Delta Q_1 + E_2 \Delta Q_2 -
-W_1 \Delta w_1 - W_2 \Delta w_w - F \Delta F
+<img src="https://render.githubusercontent.com/render/math?math=\Delta U = V_1 \Delta p_1 + V_2 \Delta p_2 + E_1 \Delta Q_1 + E_2 \Delta Q_2 -
+W_1 \Delta w_1 - W_2 \Delta w_w - F \Delta F">
 
 ## Graficos
 
@@ -134,7 +137,7 @@ W_1 \Delta w_1 - W_2 \Delta w_w - F \Delta F
 
 ### equilibrio unitario de un producto
 
-u_i = p_i - c_i = p_i - w_i + \frac{F_i+F_e_i}{Q_i}
+<img src="https://render.githubusercontent.com/render/math?math=u_i = p_i - c_i = p_i - w_i + \frac{F_i+F_e_i}{Q_i}">
 
 ### equilibrio de la empresa
 
@@ -160,7 +163,7 @@ precio que maximiza la utilidad marginal aportada por el producto
 
 es viable si incrementa las utilidades
 
-\Delta U = (p_n - w_n) Q_n - \Delta F_{n} > 0
+<img src="https://render.githubusercontent.com/render/math?math=\Delta U = (p_n - w_n) Q_n - \Delta F_{n} > 0">
 
 el producto puede ser
 - complementario
@@ -172,9 +175,9 @@ conviene
 1. si la utilidad marginal aportada por el producto es menor que los gastos
    fijos propios del producto
 
-   E_i < F_i
+   <img src="https://render.githubusercontent.com/render/math?math=E_i < F_i">
 
-  (p_i - w_i)Q_i < F_i
+  <img src="https://render.githubusercontent.com/render/math?math=(p_i - w_i)Q_i < F_i">
 
 2. cuando absorbe algun insumo de MP o MOD critico
 3. cuando se reemplace por otro prducto que sea mayor a E
@@ -185,7 +188,7 @@ conviene
 
 el precio de compra debe ser inferior al costo variable de la fabricacion
 
-p_i c_i < w'_i
+<img src="https://render.githubusercontent.com/render/math?math=p_i c_i < w'_i">
 
 
 
@@ -195,48 +198,51 @@ Capitalizacion: Incorporar los intereses devengados al capital inicial C
 
 ## Interes Simple
 
-M = C + I = C + i * C * t = C * (1 + i * n)
+<img src="https://render.githubusercontent.com/render/math?math=M = C + I = C + i * C * t = C * (1 + i * n)">
 
-VF = VA (1 + i * n)
+<img src="https://render.githubusercontent.com/render/math?math=VF = VA (1 + i * n)">
 
 n: cantidad de veces que se calcula el interes sobre el mismo capital C
 
-i = i_N : tasa de interes
+<img src="https://render.githubusercontent.com/render/math?math=i = i_N"> : tasa de interes
 
-i_N : tasa nominal
+<img src="https://render.githubusercontent.com/render/math?math=i_N"> : tasa nominal
 
-i_p: tasa proporcional
+<img src="https://render.githubusercontent.com/render/math?math=i_p">: tasa proporcional
 
-i_p = i_N / n
+<img src="https://render.githubusercontent.com/render/math?math=i_p = i_N / n">
 
 ## Interes Compuesto
 
 al vencimientose reinvierte el Capital inicial + Intereses
 
-VF = VA (1 + i)^n
+<img src="https://render.githubusercontent.com/render/math?math=VF = VA (1 + i)^n">
 
-n: cantidad de periodos de capitalizacion
+<img src="https://render.githubusercontent.com/render/math?math=n">: cantidad de periodos de capitalizacion
+
 m: cantidad de capitalizaciones por año
+
 t: tiempo en años
+
 n = mt
 
 ## Tasa Efectiva
 
 tasa que capitaliza un solo periodo
 
-TEA = (1+TNA/m)^m-1
+<img src="https://render.githubusercontent.com/render/math?math=TEA = (1+TNA/m)^m-1">
 
 ## Tasa Real
 
 f: tasa de inflacion
 
-(1+i_{real}) = \frac{1+TEA}{1+f}
+<img src="https://render.githubusercontent.com/render/math?math=(1+i_{real}) = \frac{1+TEA}{1+f}">
 
 ## Descuento Simple
 
-Anticipo = Valor Nominal (1 - d * t)
+<img src="https://render.githubusercontent.com/render/math?math=Anticipo = Valor Nominal (1 - d * t)">
 
-Descuento = Valor Nominal * d * t
+<img src="https://render.githubusercontent.com/render/math?math=Descuento = Valor Nominal * d * t">
 
 d: tasa de descuento
 
@@ -244,23 +250,23 @@ t: tiempo hasta el vencimiento del descuento
 
 ## Equivalencia entre i y d (tasa vencida y tasa adelantada) (tasa de interes y tasa de descuento) en descuento simple
 
-i = \frac{d}{1 - d * t}
+<img src="https://render.githubusercontent.com/render/math?math=i = \frac{d}{1 - d * t}">
 
-d = \frac{i}{1 + i * t}
+<img src="https://render.githubusercontent.com/render/math?math=d = \frac{i}{1 + i * t}">
 
 
 ## Descuento Compuesto
 
 calculado para el periodo n
 
-Anticipo_n = Valor Nominal (1 - d)^n
+<img src="https://render.githubusercontent.com/render/math?math=Anticipo_n = Valor Nominal (1 - d)^n">
 
 
 ## Equivalencia entre i y d (tasa vencida y tasa adelantada) (tasa de interes y tasa de descuento) en descuento compuesto
 
-i = \frac{d}{1 - d}
+<img src="https://render.githubusercontent.com/render/math?math=i = \frac{d}{1 - d}">
 
-d = \frac{i}{1 + i}
+<img src="https://render.githubusercontent.com/render/math?math=d = \frac{i}{1 + i}">
 
 ## Renta
 
@@ -272,7 +278,7 @@ cuota
 
 ### Valor Actual de renta de pagos vencidos
 
-VA = R (\frac{(1+i)^n-1}{i(1+i)^n})
+<img src="https://render.githubusercontent.com/render/math?math=VA = R (\frac{(1+i)^n-1}{i(1+i)^n})">
 
 R: cuota
 
@@ -280,17 +286,17 @@ la primer cuota se paga un periodo luego de comenzar la renta
 
 ### VA de renta de pagos anticipados
 
-VA = R \frac{(1+i)^n-1}{i(1+i)^{n-1}}
+<img src="https://render.githubusercontent.com/render/math?math=VA = R \frac{(1+i)^n-1}{i(1+i)^{n-1}}">
 
 la primer cuota se paga en el mismo periodo en que se comienza la renta
 
 ### Monto de renta de pagos vencidos
 
-VF_{acum} = R \frac{(1+i)^n-1}{i}
+<img src="https://render.githubusercontent.com/render/math?math=VF_{acum} = R \frac{(1+i)^n-1}{i}">
 
 ### Monto de renta de pagos anticipados
 
-VF_{acum} = R \frac{(1+i)-1}{i}(1+i)
+<img src="https://render.githubusercontent.com/render/math?math=VF_{acum} = R \frac{(1+i)-1}{i}(1+i)">
 
 ## Amortizacion de prestamos
 
@@ -312,14 +318,15 @@ la cuota de amortiacion es igual a los intereses + la cuota que se paga
 
 se recibe el prestamo P en el periodo 0, en los periodos siguientes se paga la cuota R
 
-R = P \frac{i(1+i)^n}{(1+i)^n-1}
+<img src="https://render.githubusercontent.com/render/math?math=R = P \frac{i(1+i)^n}{(1+i)^n-1}">
 
-R = I_j + A_j
+<img src="https://render.githubusercontent.com/render/math?math=R = I_j + A_j">
 
-I_j: interes de la deuda
-A_j = A_1(1+i)^{j-1}
+<img src="https://render.githubusercontent.com/render/math?math=I_j">: interes de la deuda
 
-I_j = C_{j-1} * i
+<img src="https://render.githubusercontent.com/render/math?math=A_j = A_1(1+i)^{j-1}">
+
+<img src="https://render.githubusercontent.com/render/math?math=I_j = C_{j-1} * i">
 
 en este sistema, es constante
 
@@ -331,10 +338,10 @@ el prestamo P se devuelve en n amortizaciones constantes iguales R = P/n.
 el interes se calcula sobre el saldo del periodo anterior por la tasa de interes
 
 intereses pagados por periodo vencido
-R_m = P / n + (p - \frac{P (m-1)}{n}) i
+<img src="https://render.githubusercontent.com/render/math?math=R_m = P / n + (p - \frac{P (m-1)}{n}) i">
 
 intereses pagados por periodo adelantado
-R_m = P / n + (p - \frac{P m}{n}) i para m \neq 0
+<img src="https://render.githubusercontent.com/render/math?math=R_m = P / n + (p - \frac{P m}{n}) i para m \neq 0">
 
 ### Sistema Americano
 
@@ -344,16 +351,12 @@ R_m = P / n + (p - \frac{P m}{n}) i para m \neq 0
 
 intereses constantes
 
-I_i = C_{i-1} * i
+<img src="https://render.githubusercontent.com/render/math?math=I_i = C_{i-1} * i">
 
 
 ### Interes directo
 
-R = P / n + i * P
-
-### 
-### 
-### 
+<img src="https://render.githubusercontent.com/render/math?math=R = P / n + i * P">
 
 # Evaluacion de proyectos
 
@@ -364,7 +367,7 @@ R = P / n + i * P
 2. flujo de fondos neto periodo por periodo
 3. Actualizar el Flujo de Fondos neto de acuerdo a la tasa elegida t
 
-VAN = \sum^{n} \frac{I_i-E_i}{(1+t)^{i}}
+<img src="https://render.githubusercontent.com/render/math?math=VAN = \sum^{n} \frac{I_i-E_i}{(1+t)^{i}}">
 
 los ingresos previstos, procedentes de la inversión inicial, son suficientes
 para devolver el capital más los intereses de un préstamo a la tasa elegida t
@@ -402,7 +405,6 @@ X son las cuotas del prestamo
 
 hace que VAN sea 0
 
-
 - reconoce el VTD (dinero en futuro cercano vale + que en futuro lejano) ( Valor
   Tiempo del Dinero)
 - como los datos son FF se elimina la influencia de factores arbitrarios
@@ -419,7 +421,7 @@ El período de recuperación es el lapso en el cual el VA de los egresos E es
 recuperado a través del VA de los ingresos I, a un tipo de interés i. El
 período de recuperación t será aquel valor que satisfaga la ecuación:
 
-\sum_{j=0}^{n} \frac{E_j}{(1+i)^j} = \sum_{j=0}^{t} \frac{I_j}{(1+i)^j}
+<img src="https://render.githubusercontent.com/render/math?math=\sum_{j=0}^{n} \frac{E_j}{(1+i)^j} = \sum_{j=0}^{t} \frac{I_j}{(1+i)^j}">
 
 n: cantidad de periodos a tener en cuenta
 
@@ -444,13 +446,6 @@ n: cantidad de periodos a tener en cuenta
 2. Cuando es distinto el monto de la inversión de cada proyecto
 3. Caso en que el método de la tasa interna y el VA discrepan
 4. Evaluación de desinversiones (según criterios de RMg, TIR y VA)
-
-
-
-
-
-
-
 
 # flujo de fondos
 El Flujo de Fondos es la registración de todos los movimientos de egresos e
@@ -485,9 +480,9 @@ Fondos es siempre ex-ante.
 
 # Capital de Trabajo = Fondo de Maniobra
 
-K_T = Activo_{corriente} - Pasivo_{corriente}
+<img src="https://render.githubusercontent.com/render/math?math=K_T = Activo_{corriente} - Pasivo_{corriente}">
 
-K_T = Patrimonio Neto + Pasivo_{no corriente} - Activo_{no corriente}
+<img src="https://render.githubusercontent.com/render/math?math=K_T = Patrimonio Neto + Pasivo_{no corriente} - Activo_{no corriente}">
 
 
 # indices
@@ -516,14 +511,13 @@ beneficio de x$ por cada $1 arriesgado
 
 tasa de acutalizacion i
 
-
 ### VAN Valor Actual Neto
 
-VF = VA (1+i)^{n}
+<img src="https://render.githubusercontent.com/render/math?math=VF = VA (1+i)^{n}">
 
 para una sucecion de valores futuros, el valor actual de la sucecion se lo llama valor actual neto y es:
 
-VAN = VF_0 + VF_1 / (1+i) + VF_2 / (1+i)^2 + ... + VF_n / (1+i)^n
+<img src="https://render.githubusercontent.com/render/math?math=VAN = VF_0 + VF_1 / (1+i) + VF_2 / (1+i)^2 + ... + VF_n / (1+i)^n">
 
 ### TIR
 ### IVA 
@@ -535,33 +529,36 @@ VAN = VF_0 + VF_1 / (1+i) + VF_2 / (1+i)^2 + ... + VF_n / (1+i)^n
 - No se preveen distorsiones PRECIOS/COSTOS relativos entre
   los distintos componentes de INGRESOS / EGRESOS
 
-(1 + i_{real}) = (1 + I_{Costo Dinero})  / (1 + F_{inflacion})
+<img src="https://render.githubusercontent.com/render/math?math=(1 + i_{real}) = (1 + I_{Costo Dinero})  / (1 + F_{inflacion})">
 
 # Marketing
 
 # Costos
 ## std
 
-
-
 nivel de actividad: si el centro productivo interviene en la fabricacion de varios productos, estos se tienen en cuenta para calcular el nivel de actividad del centro.
 
 alfa, beta: si un producto pasa por varios centros productivos, a la hora de calcular los GGF (fijos y/o variables), se tienen en cuenta los alfa o beta de los centros que intervienen. Cada alfa o beta va multiplicado por el std de MOD del centro para el producto en cuestion
 
 ### por absorcion
-costo unitario = MP_{std} * std_{MP} + MOD_{std} * std_{MOD} + GGFTot_{prop+prorr} * std_{MOD}
 
-MP_{std}: cantidad de MP std utilizada para el producto en cuestion
-std_{MP}: costo std de MP
-MOD_{std}: cantidad de MOD std utilizada para el prod
-std_{MOD}: costo std de MOD
-GGFTot_{prop+prorr}: BETA, gastos fijos y variables std, propios y prorrateados divido el nivel de actividad utilizado por el Centro productivo que interviene en la produccion del producto en cuestion
+<img src="https://render.githubusercontent.com/render/math?math=costo unitario = MP_{std} * std_{MP} + MOD_{std} * std_{MOD} + GGFTot_{prop+prorr} * std_{MOD}">
+
+<img src="https://render.githubusercontent.com/render/math?math=MP_{std}">: cantidad de MP std utilizada para el producto en cuestion
+
+<img src="https://render.githubusercontent.com/render/math?math=std_{MP}">: costo std de MP
+
+<img src="https://render.githubusercontent.com/render/math?math=MOD_{std}">: cantidad de MOD std utilizada para el prod
+
+<img src="https://render.githubusercontent.com/render/math?math=std_{MOD}">: costo std de MOD
+
+<img src="https://render.githubusercontent.com/render/math?math=GGFTot_{prop+prorr}">: BETA, gastos fijos y variables std, propios y prorrateados divido el nivel de actividad utilizado por el Centro productivo que interviene en la produccion del producto en cuestion
 
 
 ### directo
-costo unitario = MP_{std} * std_{MP} + MOD_{std} * std_{MOD} + GGFV_{prop+prorr} * std_{MOD}
+<img src="https://render.githubusercontent.com/render/math?math=costo unitario = MP_{std} * std_{MP} + MOD_{std} * std_{MOD} + GGFV_{prop+prorr} * std_{MOD}">
 
-GGFV_{prop+prorr}: ALFA, gastos vatriables std
+<img src="https://render.githubusercontent.com/render/math?math=GGFV_{prop+prorr}">: ALFA, gastos vatriables std
 
 ## ABC
 
