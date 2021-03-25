@@ -1,10 +1,10 @@
 # Analisis Marginal
 
-### enfoque tradicional
+### Enfoque tradicional
 Ganancia Unitaria = Precio de Venta - Costo Unitario
 
-p_i: precio de venta
-w_i: costo variable unitario
+<img src="https://render.githubusercontent.com/render/math?math=p_i">: precio de venta
+<img src="https://render.githubusercontent.com/render/math?math=w_i">: costo variable unitario
 - materia prima
 - envases
 - mano de obra
@@ -16,8 +16,8 @@ w_i: costo variable unitario
   - comisiones de vendedores
   - impuestos
   - fletes
-Q_i: volumen fisico de ventas
-F_i: gastos fijos propios
+<img src="https://render.githubusercontent.com/render/math?math=Q_i">: volumen fisico de ventas
+<img src="https://render.githubusercontent.com/render/math?math=F_i">: gastos fijos propios
 no varian al variar el nivel de actividad
 - alquiler
 - publicidad
@@ -42,20 +42,20 @@ son independientes entre si
 
 
 ### ventas de un producto
-V_i = p_i * Q_i
+<img src="https://render.githubusercontent.com/render/math?math=V_i = p_i * Q_i">
 
 ### ventas para toda la empresa
-V = \sum_{i=1}^{n} V_i
+<img src="https://render.githubusercontent.com/render/math?math=V = \sum_{i=1}^{n} V_i">
 
 
-w'_i : coeficiente de costo proporcional a los volumenes de ventas
+<img src="https://render.githubusercontent.com/render/math?math=w'_i"> : coeficiente de costo proporcional a los volumenes de ventas
 
-s_i: coef de costo proporcional a la venta del producto
+<img src="https://render.githubusercontent.com/render/math?math=s_i">: coef de costo proporcional a la venta del producto
 
-J : coef de costo proporcional a las utilidades
+<img src="https://render.githubusercontent.com/render/math?math=J"> : coef de costo proporcional a las utilidades
 
 ### Costo total
-C = F + \sum_{i=1}^{n} w'_i Q_i + \sum_{i=1}^{n} s_i V_i
+<img src="https://render.githubusercontent.com/render/math?math=C = F + \sum_{i=1}^{n} w'_i Q_i + \sum_{i=1}^{n} s_i V_i">
 
 
 ### Utilidades operativas
@@ -589,7 +589,7 @@ actividades
 
 # Finanzas
 
-# Contabilidad
+# Contabilidad      
 
 financiero
 - liquidez
